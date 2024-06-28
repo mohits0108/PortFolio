@@ -1,0 +1,56 @@
+.resume {
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color:var(--yellow-theme-main-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+  
+    span {
+      margin-left: 10px;
+    }
+  
+    &:hover {
+      background-color: #daef15;
+      color: black;
+    }
+  }
+
+ 
+  
+  
+  .imgc {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+    filter: drop-shadow(2px 4px #ffbb40) ;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .imgc {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  

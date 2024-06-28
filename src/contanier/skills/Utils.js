@@ -1,0 +1,57 @@
+export const skillsData=[
+    {
+        label:"FRONT END",
+        data:[
+            {
+                skillname:"HTML",
+                percentage:"90",
+            },
+            {
+                skillname:"CSS",
+                percentage:"70",
+            },
+            {
+                skillname:"JAVASCRIPT",
+                percentage:"80",
+            },
+            {
+                skillname:"REACT",
+                percentage:"75",
+            },
+        ],
+    },
+    {
+        label:"LANGUAGES KNOWN",
+        data:[
+            {
+                skillname:"C",
+                percentage:"80",
+            },
+            {
+                skillname:"C++",
+                percentage:"80",
+            },
+            {
+                skillname:"python",
+                percentage:"90",
+            },
+        ],
+    },
+    {
+        label:"OTHERS",
+        data:[
+            {
+                skillname:"OOPS",
+                percentage:"90",
+            },
+            {
+                skillname:"DSA",
+                percentage:"70",
+            },
+            {
+                skillname:"OPERATING SYSTEM",
+                percentage:"70",
+            },
+        ],
+    },
+]

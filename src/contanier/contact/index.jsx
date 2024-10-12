@@ -51,7 +51,6 @@ const contact = () => {
               <label htmlFor="description" className='descriptionlabel'>Description</label>
               </div>
               </div>
-              <button>Submit</button>
             </div>
                  </Animate>
         </div>

@@ -4,7 +4,7 @@ import { BsInfoCircleFill } from 'react-icons/bs';
 import { Animate } from 'react-simple-animate';
 import './style.scss'
 import { DiApple,DiAndroid } from 'react-icons/di'; 
-import { FaDev,FaDatabase,FaLinkedin } from 'react-icons/fa';
+import { FaDev,FaDatabase} from 'react-icons/fa';
 
 
 const About = () => {

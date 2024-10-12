@@ -2,7 +2,6 @@ import React from 'react';
 import './style.scss';
 import { Link } from 'react-router-dom';
 import { Animate } from 'react-simple-animate';
-import { FaLinkedin } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import avatar from '../../image/avatar.png';
 

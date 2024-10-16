@@ -27,6 +27,10 @@ const data=[
     {
         label : 'CONTACT',
         to : '/contact'
+    },
+    {
+        label : 'REPORTS',
+        to : '/reports'
     }
 ];
 const Navbar = () => {

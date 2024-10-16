@@ -7,8 +7,13 @@ import avatar from '../../image/avatar.png';
 
 const Home = () => {
   return (
+    
     <section id='home' className='home'>
       <div className='home_text-wrapper'>
+      <div class="cf-turnstile"
+      data-sitekey="yourSitekey"
+      data-callback="javascriptCallback"
+      ></div>
         <h1>
           Hello, I'm Mohit Sharma
           <br/>

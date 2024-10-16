@@ -9,6 +9,7 @@ import Resume from './contanier/resume';
 import Home from './contanier/home';
 import React from 'react';
 import Navbar from './components/navbar';
+import Reports from './contanier/Reports';
 
 
 
@@ -70,7 +71,8 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />   
+        <Route path="/Reports" element={<Reports />} />   
       </Routes>
 
 

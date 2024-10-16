@@ -11,7 +11,7 @@ const Home = () => {
     <section id='home' className='home'>
       <div className='home_text-wrapper'>
       <div class="cf-turnstile"
-      data-sitekey="yourSitekey"
+      data-sitekey="0x4AAAAAAAxk-WeCk1XKTTad"
       data-callback="javascriptCallback"
       ></div>
         <h1>

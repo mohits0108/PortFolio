@@ -7,11 +7,10 @@ import Skills from './contanier/skills';
 import Contact from './contanier/contact';
 import Resume from './contanier/resume';
 import Home from './contanier/home';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import Reports from './contanier/Reports';
-import MyComponent from './contanier/MyComponent';
-import TurnstileComponent from './contanier/TurnstileComponent';
+
 
 
 
@@ -56,13 +55,33 @@ import TurnstileComponent from './contanier/TurnstileComponent';
 // import Home from './container/home';
 // import React from 'react';
 // import Navbar from './components/navbar';
+const [verified, setVerified] = useState(false);
 
+const handleTurnstileSuccess = (token) => {
+  console.log("Turnstile token: ", token);
+  // Proceed as verified once token is received
+  setVerified(true);
+};
 
 function App() {
  
 
   return (
     <div className="App">
+        {!verified ? (
+        <div>
+          <h1>Please verify you're not a bot</h1>
+          <Turnstile
+            sitekey="0x4AAAAAAAxk-WeCk1XKTTad"  // Replace with your actual site key
+            onSuccess={handleTurnstileSuccess}
+          />
+        </div>
+      ) : (
+        <div>
+          <h1>Welcome, Human!</h1>
+          {/* Render your website's content here */}
+        </div>
+      )}
      
       <Navbar />
      
@@ -76,8 +95,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />   
         <Route path="/Reports" element={<Reports />} />   
       </Routes>
-      <MyComponent/>
-      <TurnstileComponent/>
     
    
       

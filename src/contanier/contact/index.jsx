@@ -16,24 +16,24 @@ const Contact = () => {
           <h3 className='contact_content_header-text'>Reach Out</h3>
           <ul className='contact_info_list'>
             <li>
-              <FaLinkedin size={20} />{' '}
-              <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={20} color='yellow' />{' '}
+              <a href="https://www.linkedin.com/in/mohitsharma34/" target="_blank" rel="noopener noreferrer">
                 LinkedIn Profile
               </a>
             </li>
             <li>
-              <FaGithub size={20} />{' '}
-              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+              <FaGithub size={20} color='yellow'  />{' '}
+              <a href="https://github.com/mohits0108" target="_blank" rel="noopener noreferrer">
                 GitHub Profile
               </a>
             </li>
             <li>
-              <FaPhone size={20} />{' '}
-              <span>+123 456 7890</span>
+              <FaPhone size={20} color='yellow'  />{' '}
+              <span className='number'>+91 8103772017</span>
             </li>
             <li>
-              <FaEnvelope size={20} />{' '}
-              <a href="mailto:your-email@example.com">your-email@example.com</a>
+              <FaEnvelope size={20} color='yellow'  />{' '}
+              <a href="mailto:mohits0108@gmail.com">mohits0108@gmail.com</a>
             </li>
           </ul>
         </div>

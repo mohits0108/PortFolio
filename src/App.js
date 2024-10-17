@@ -10,6 +10,7 @@ import Home from './contanier/home';
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import Reports from './contanier/Reports';
+import Turnstile from '@marsidev/react-turnstile';
 
 
 

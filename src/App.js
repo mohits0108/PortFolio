@@ -10,6 +10,8 @@ import Home from './contanier/home';
 import React from 'react';
 import Navbar from './components/navbar';
 import Reports from './contanier/Reports';
+import MyComponent from './contanier/MyComponent';
+import TurnstileComponent from './contanier/TurnstileComponent';
 
 
 
@@ -74,8 +76,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />   
         <Route path="/Reports" element={<Reports />} />   
       </Routes>
-
-
+      <MyComponent/>
+      <TurnstileComponent/>
+    
    
       
       

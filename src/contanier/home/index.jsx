@@ -5,15 +5,12 @@ import { Animate } from 'react-simple-animate';
 import Tilt from 'react-parallax-tilt';
 import avatar from '../../image/avatar.png';
 
+
 const Home = () => {
   return (
     
     <section id='home' className='home'>
       <div className='home_text-wrapper'>
-      <div class="cf-turnstile"
-      data-sitekey="0x4AAAAAAAxk-WeCk1XKTTad"
-      data-callback="javascriptCallback"
-      ></div>
         <h1>
           Hello, I'm Mohit Sharma
           <br/>

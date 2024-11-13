@@ -3,12 +3,12 @@ import React from 'react';
 const DownloadButton = () => {
   const handleDownload = () => {
     
-    const fileUrl = 'MohitSharmaResume.pdf';
+    const fileUrl = 'MohitLatestResume.pdf';
 
    
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'MohitSharmaResume.pdf';
+    link.download = 'MohitLatestResume.pdf';
 
     
     document.body.appendChild(link);

@@ -8,10 +8,10 @@ import './style.scss';
 
 const Resume = () => {
   const handleDownload = () => {
-    const fileUrl = 'MohitSharmaResume.pdf';
+    const fileUrl = 'MohitResumev1.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'MohitSharmaResume.pdf';
+    link.download = 'MohitResumev1.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

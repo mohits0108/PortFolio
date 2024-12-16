@@ -62,20 +62,7 @@ function App() {
 
   return (
     <div className="App">
-        {!verified ? (
-        <div>
-          <h1>Please verify you're not a bot</h1>
-          <Turnstile
-            sitekey="0x4AAAAAAAxk-WeCk1XKTTad"  // Replace with your actual site key
-            onSuccess={handleTurnstileSuccess}
-          />
-        </div>
-      ) : (
-        <div>
-          <h1>Welcome, Human!</h1>
-          {/* Render your website's content here */}
-        </div>
-      )}
+       
      
       <Navbar />
      

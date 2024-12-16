@@ -7,7 +7,6 @@ import Skills from './contanier/skills';
 import Contact from './contanier/contact';
 import Resume from './contanier/resume';
 import Home from './contanier/home';
-import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import Reports from './contanier/Reports';
 

@@ -10,7 +10,6 @@ import Home from './contanier/home';
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import Reports from './contanier/Reports';
-import Turnstile from '@marsidev/react-turnstile';
 
 
 
@@ -56,13 +55,7 @@ import Turnstile from '@marsidev/react-turnstile';
 // import Home from './container/home';
 // import React from 'react';
 // import Navbar from './components/navbar';
-const [verified, setVerified] = useState(false);
 
-const handleTurnstileSuccess = (token) => {
-  console.log("Turnstile token: ", token);
-  // Proceed as verified once token is received
-  setVerified(true);
-};
 
 function App() {
  
